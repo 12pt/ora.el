@@ -1,0 +1,8 @@
+* Ora
+Rearrange the defuns in your project's files.
+
+** Usage
+Call =ora-up= or =ora-down= to move defuns up and down.
+
+** Notes
+Work in progress, caveat emptor.
