@@ -10,7 +10,7 @@
   "Remove a function definition, putting it into the kill-ring.
 If the function has a newline preceeding it, this will select that too."
   (interactive)
-  (mark-defun)
+  (mark-defun) ; may need to fiddle to avoid selecting nearby comments
   (kill-region 0 0 1))
 
 (defun ora-up ()

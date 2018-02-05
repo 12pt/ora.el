@@ -4,11 +4,13 @@ Rearrange the defuns in your project's files.
 ** Usage
 Call =ora-up= or =ora-down= to move defuns up and down. Note that moving a defun will move nearby comments above it, should the point be on the first character of the defun. To avoid simply don't move a function when the point is on the first character of the first line.
 
-*** Example
+*** Example Usage
+
+Simply place the point within a function definition you want to move and move it with whatever keybindings you like. =ora-up= moves the definition to before the previous one, and =ora-down= moves it past the next definition.
 
 #+BEGIN_SRC emacs-lisp
-(global-set-key (kbd "<M-down>") 'ora-down)
-(global-set-key (kbd "<M-up>") 'ora-up)
+(global-set-key (kbd "<C-down>") 'ora-down)
+(global-set-key (kbd "<C-up>") 'ora-up)
 #+END_SRC
 
 ** Notes
