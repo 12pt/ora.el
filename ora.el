@@ -1,7 +1,7 @@
 ;; WIP
 ;; USE AT OWN PERIL
 
-;; BUG: nearby comments also moved.
+;; BUG/unintended side-effect: nearby comments also moved.
 ;; this is only noticeable if the point is on the first character of
 ;; the defun...maybe this isnt necessarily a bad thing, though it adds
 ;; unneccessary thinking.
