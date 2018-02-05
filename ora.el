@@ -25,3 +25,4 @@ If the function has a newline preceeding it, this will select that too."
   (end-of-defun)
   (yank) 
   (beginning-of-defun))
+
